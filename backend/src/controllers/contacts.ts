@@ -9,9 +9,9 @@ import listOneContactIdService from "../services/listOneContact";
 
 const createContactController = async (req: Request, res: Response) => {
 
-	const useId = req.user.id;
+	const id = req.user.id;
 	const data: IContact = req.body;
-	const createdContact = await createContactService(useId, data);
+	const createdContact = await createContactService(id, data);
 
 	return res.status(201).json(createdContact);
 };
