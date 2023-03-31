@@ -1,14 +1,16 @@
 <h1>Bem-vindo ao <strong>Contactool!<strong></h1>
 
-Essa aplicação tem como intuito fazer uma agenda telefônica 100% funcional. Basta fazer seu cadastro, logar e poder adicionar quantos contatos quiser; é possível também modificar seu usuário e os outros contatos também, se necessário.
+Essa aplicação tem como intuito fazer uma agenda telefônica 100% funcional. Basta fazer seu cadastro, logar e então adicionar quantos contatos quiser; é possível também modificar seu usuário e os outros contatos também, se necessário.
 
-<h3>Diagram:</h3>
+# Backend: 
+
+<h3>Diagrama:</h3>
 
 ![Library](DER_Contactool.png)
 
 <h2>Instalação</h2>
 
-Entre no diretório do porojeto:
+Entre no diretório do projeto:
 ```bash
     cd backend
 ```
@@ -108,3 +110,6 @@ Inicie o servidor:
 <h4>DELETE /users/own/</h4>
 <p>Para deletar, é necessário apenas o token (recebido ao fazer o login) e colocar na rota o id do contato</p>
 
+# Frontend:
+
+<p>Em andamento</p>
