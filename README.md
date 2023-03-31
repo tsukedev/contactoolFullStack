@@ -21,7 +21,7 @@ Instale as dependências:
 ```bash
     yarn
 ```
-Caso necessário, faça as migrations: 
+Caso necessário, crie uma pasta chamada migrations e rode-as: 
 ```bash
     yarn typeorm migration:generate  src/migrations/initial -d src/data-source.ts
     yarn typeorm migration:run -d src/data-source.ts
