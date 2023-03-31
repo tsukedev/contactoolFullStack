@@ -2,7 +2,7 @@ import "dotenv/config";
 import { DataSource } from "typeorm";
 import { User } from "./entities/users";
 import { Contact } from "./entities/contacts";
-import { initial1680210599377 } from "./migrations/1680210599377-initial";
+import { initial1680275401731 } from "./migrations/1680275401731-initial";
 
 export const AppDataSource = new DataSource(
 	process.env.NODE_ENV === "test"
@@ -22,6 +22,6 @@ export const AppDataSource = new DataSource(
 			logging: true,
 			synchronize: false,
 			entities: [User, Contact],
-			migrations: [initial1680210599377]
+			migrations: [initial1680275401731]
 		}
 );
