@@ -6,7 +6,7 @@ const userSchema: SchemaOf<IUserRequest> = yup.object().shape({
 	name: yup.string().required("Name required"),
 	email: yup.string().email().required("Email required"),
 	password: yup.string().required("Password required"),
-	cellphone: yup.string().required("Cellphone required"),
+	cellphone: yup.string().required("cellphone required"),
 });
 
 const userLoginSchema: SchemaOf<IUserLogin> = yup.object().shape({
