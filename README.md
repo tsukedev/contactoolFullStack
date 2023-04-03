@@ -112,4 +112,20 @@ Inicie o servidor:
 
 # Frontend:
 
-<p>Em andamento</p>
+
+Entre no diretório do projeto:
+```bash
+    cd frontend
+```
+
+Instale as dependências:
+```bash
+    yarn
+```
+
+Inicie o servidor:
+```bash
+    yarn run dev
+```
+
+Ao clicar no link entregue, será possível utilizar a agenda!
